@@ -1,0 +1,63 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: 'Merriweather Sans', sans-serif;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("../images/ben-blackledge-qJgKNKOXaac-unsplash.jpg");
+  /* Full height */
+  height: 100vh;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  color: #e4e9f5;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner-container {
+  padding: 1% 0;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2% 0;
+  text-align: center;
+}
+
+li {
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  display: inline-block;
+}
+
+li span {
+  display: block;
+  /* text-align: center; */
+  padding: 0 1% 10%;
+  font-size: 3.5rem;
+}
+
+@media screen and (min-width: 430px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+}
